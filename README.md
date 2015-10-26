@@ -1,6 +1,7 @@
 # WebtekProsjektLCH
 
-IT2805 Project made by: \n
+IT2805 Project made by: 
+
 -L.Jie
 -K.Simon
 -W.H.J.Joachim
