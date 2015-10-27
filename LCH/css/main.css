@@ -65,13 +65,6 @@ body {
   padding: 0 25px;
 }
 
-.navbar .navbox#packages_div {
-  padding-right: 30px;
-}
-
-.navbar .navbox#order_div {
-  padding-left: 40px;
-}
 
 .content .header .navbar .navbox h2 {
   font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
