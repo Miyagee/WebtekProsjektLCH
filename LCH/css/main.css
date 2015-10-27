@@ -46,7 +46,34 @@ body {
   border: 1px solid #887c4d;
 }
 
-.content .header .navbar h2 {
+.navbar .navbox {
+  height: 100%;
+  display: inline-block;
+}
+
+.content .header .navbar .navbox:hover h2{
+  color: #887c4d;
+}
+
+.navbar .navbox#home_div, .navbar .navbox#packages_div {
+  float: left;
+  padding: 0 8px;
+}
+
+.navbar .navbox#order_div, .navbar .navbox#about_div {
+  float: right;
+  padding: 0 25px;
+}
+
+.navbar .navbox#packages_div {
+  padding-right: 30px;
+}
+
+.navbar .navbox#order_div {
+  padding-left: 40px;
+}
+
+.content .header .navbar .navbox h2 {
   font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
   font-size: 2.8em;
   color: white;
@@ -54,15 +81,6 @@ body {
   font-weight: 100;
 }
 
-.navbar h2#home, .navbar h2#packages {
-  float: left;
-  margin-left: 10px;
-}
-
-.navbar h2#order, .navbar h2#about {
-  float: right;
-  margin-right: 30px;
-}
 
 .content .header .navbar span {
   color: #887c4d; /*Sets first letter in each navbar-page to gold*/
