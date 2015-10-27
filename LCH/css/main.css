@@ -8,4 +8,63 @@ body {
   background: linear-gradient(to right, black, #1c1c1c, #2f2f2f, #2f2f2f, #1c1c1c, black);
 }
 
+.content {
+  width: 75%;
+  margin: 30px auto;
+}
+
+/*----HEADER-----*/
+
+.content .header {
+  margin: 0;
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+
+.content .header img {
+  position: absolute;
+  display: block;
+  height: 148px;
+  width: 148px;
+  left: 50%;
+  margin-left: -74px;   /*Left and margin-left necessary for centering the logo*/
+  border: 1px solid #887c4d;
+  -webkit-border-radius: 100%;  /*Makes the border go around the image*/
+  z-index: 10;
+}
+
+.content .header .navbar {
+  position: absolute;
+  box-sizing: border-box;   /*Makes the border go along the inside of the div*/
+  width: 100%;
+  height: 90px;
+  top: 50%;
+  margin-top: -45px;  /*Top and margin-top necessary for centering the navbar*/
+  background-color: #070707;
+  z-index: 9;
+  border: 1px solid #887c4d;
+}
+
+.content .header .navbar h2 {
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-size: 2.8em;
+  color: white;
+  margin-top: 20px; /*Bad practice*/
+  font-weight: 100;
+}
+
+.navbar h2#home, .navbar h2#packages {
+  float: left;
+  margin-left: 10px;
+}
+
+.navbar h2#order, .navbar h2#about {
+  float: right;
+  margin-right: 30px;
+}
+
+.content .header .navbar span {
+  color: #887c4d; /*Sets first letter in each navbar-page to gold*/
+}
 
