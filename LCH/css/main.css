@@ -9,7 +9,7 @@ body {
 }
 
 .content {
-  width: 75%;
+  width: 960px;
   margin: 30px auto;
 }
 
@@ -64,7 +64,6 @@ body {
   float: right;
   padding: 0 25px;
 }
-
 
 .content .header .navbar .navbox h2 {
   font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
