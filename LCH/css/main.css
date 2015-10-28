@@ -74,7 +74,7 @@ body {
 }
 
 
-.content header .navbar span {
+.content header .navbar h2::first-letter {
   color: #887c4d; /*Sets first letter in each navbar-page to gold*/
 }
 
@@ -83,6 +83,7 @@ body {
 
 .content footer {
   margin: 0;
+  top: 30px;
   height: 70px;
   width:100%;
   position: relative;
@@ -96,6 +97,20 @@ footer h4, footer h3 {
   margin: 0;
 }
 
+footer .developer_div {
+  position: relative;
+  margin: 15px 15px;
+  float: left;
+}
+
+footer .faq_div {
+  height: 100%;
+  width: 140px;
+  text-align: center;
+  position: relative;
+  float: right;
+}
+
 footer h4 {
   color: white;
   font-size: 1em;
@@ -103,6 +118,6 @@ footer h4 {
 
 footer h3 {
   color: #887c4d;
-  font-size: 2em;
+  font-size: 3em;
 }
 
