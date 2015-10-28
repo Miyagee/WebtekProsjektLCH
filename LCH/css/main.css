@@ -78,12 +78,80 @@ body {
   color: #887c4d; /*Sets first letter in each navbar-page to gold*/
 }
 
+/*------HOMEPAGE--------*/
+
+main .homepage {
+  margin-top: 20px;
+}
+
+main .homepage .definition_div {
+  height: 300px;
+  width: 100%;
+  background-color: #070707;
+  border: 1px solid #887c4d;
+}
+
+.homepage .definition_div .def_head {
+  position: relative;
+  height: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.definition_div .def_head .luxury_div {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.definition_div .def_head .phonetic_div {
+  height: 100%;
+  width: 50%;
+  float: right;
+}
+
+.homepage .definition_div h1 {
+  margin: 0;
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-weight: 100;
+  font-size: 4em;
+}
+
+
+.homepage .definition_div h1#luxury{
+  margin-top: 40px;
+  color: white;
+}
+
+.homepage .definition_div h1#luxury::first-letter, .homepage .definition_div h1#phonetic {
+  margin-top: 40px;
+  color: #887c4d;
+}
+
+.homepage .definition_div .def_foot {
+  height: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.definition_div .def_foot p {
+  margin: 0;
+  color: white;
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+}
+
+.definition_div .def_foot p::first-letter {
+  color: #887c4d;
+}
+
 
 /*------FOOTER--------*/
 
 .content footer {
   margin: 0;
-  top: 30px;
+  margin-top: 20px;
   height: 70px;
   width:100%;
   position: relative;
