@@ -15,14 +15,14 @@ body {
 
 /*----HEADER-----*/
 
-.content .header {
+.content header {
   margin: 0;
   height: 150px;
   width: 100%;
   position: relative;
 }
 
-.content .header img {
+.content header img {
   position: absolute;
   display: block;
   height: 148px;
@@ -34,7 +34,7 @@ body {
   z-index: 10;
 }
 
-.content .header .navbar {
+.content header .navbar {
   position: absolute;
   box-sizing: border-box;   /*Makes the border go along the inside of the div*/
   width: 100%;
@@ -51,7 +51,7 @@ body {
   display: inline-block;
 }
 
-.content .header .navbar .navbox:hover h2{
+.content header .navbar .navbox:hover h2{
   color: #887c4d;
 }
 
@@ -65,7 +65,7 @@ body {
   padding: 0 25px;
 }
 
-.content .header .navbar .navbox h2 {
+.content header .navbar .navbox h2 {
   font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
   font-size: 2.8em;
   color: white;
@@ -74,7 +74,35 @@ body {
 }
 
 
-.content .header .navbar span {
+.content header .navbar span {
   color: #887c4d; /*Sets first letter in each navbar-page to gold*/
+}
+
+
+/*------FOOTER--------*/
+
+.content footer {
+  margin: 0;
+  height: 70px;
+  width:100%;
+  position: relative;
+  background-color: #070707;
+  border: 1px solid #887c4d;
+}
+
+footer h4, footer h3 {
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+
+footer h4 {
+  color: white;
+  font-size: 1em;
+}
+
+footer h3 {
+  color: #887c4d;
+  font-size: 2em;
 }
 
