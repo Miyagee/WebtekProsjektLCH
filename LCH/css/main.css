@@ -147,6 +147,22 @@ main .homepage .definition_div {
 }
 
 
+
+.homepage .jumbotron {
+  margin-top: 20px;
+  height: 400px;
+  width: 100%;
+  background-color: #070707;
+  border: 1px solid #887c4d;
+}
+
+.homepage .jumbotron p {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+}
+
+
 /*------FOOTER--------*/
 
 .content footer {
