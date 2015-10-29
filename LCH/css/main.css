@@ -521,19 +521,20 @@ footer h3 {
     border: 1px solid #887c4d;
     background-color: #070707;
     width: 100%;
+    text-align: center;
 }
 
 .main-container h2 {
+    padding-bottom: 2%;
     border-bottom: 1px solid #887c4d;
-    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
     font-size: 2.8em;
-    margin-top: 20px; /*Bad practice*/
     font-weight: 100;
     text-align: center;
 }
 
 .main-container #selectedPackage {
     border: 1px solid #887c4d;
+    padding-bottom: 0;
 }
 
 .main-container h2::first-letter {
@@ -553,6 +554,28 @@ footer h3 {
     float: right;
 }
 
+#ToS-text {
+    color: #887c4d;
+    margin: 2% 30%;
+}
+
+#form-des {
+     color: #887c4d;
+}
+
+.main-container input[type="submit"] {
+    background-color: #887c4d;
+    color: white;
+    width: 200px;
+    height: 100%;
+    margin: 0 3%;
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+}
+
 .main-container label::first-letter {
     color: #887c4d;
 }
+
+
