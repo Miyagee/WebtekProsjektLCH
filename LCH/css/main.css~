@@ -30,7 +30,7 @@ body {
   left: 50%;
   margin-left: -74px;   /*Left and margin-left necessary for centering the logo*/
   /*border: 1px solid #887c4d;*/
-  /*-webkit-border-radius: 100%;*/  /*Makes the border go around the image*/
+  -webkit-border-radius: 100%;  /*Makes the border go around the image*/
   z-index: 10;
 }
 
