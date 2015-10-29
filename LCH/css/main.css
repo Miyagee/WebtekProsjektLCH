@@ -140,7 +140,7 @@ main .homepage .definition_div {
   color: white;
   font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
   font-weight: 100;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .definition_div .def_foot p::first-letter {
