@@ -20,53 +20,59 @@
 			<main>
 				<div class="main-container">
 					<form>
-						<h1>CONTACT INFORMATION</h1>
+						<h2>CONTACT INFORMATION</h2>
+						<table>
+							 <tr>
+								<td><label for="first-name">*FIRST NAME:</label></td>
+								<td><input id="first-name" type="text" required="" size="30" value="" name="firstName"></td>
+							</tr>
 
-						<label for="first-name">*FIRST NAME:</label>
-						<input id="first-name" type="text" required="" size="30" value="" name="firstName">
+							<tr>
+								<td><label for="middle-name">MIDDLE NAME:</label></td>
+								<td><input id="middle-name" type="text" required="" size="30" value="" name="middleName"></td>
+							</tr>
 
+							<tr>
+								<td><label for="last-name">*LAST NAME:</label></td>
+								<td><input id="last-name" type="text" required="" size="30" value="" name="name"></td>
+							</tr>
+
+							<tr>
+								<td><label for="address">*STREET ADDRESS:</label></td>
+								<td><input id="address" type="text" size="30" value="" name="addres" required=""></td>
+							</tr>
+
+							<tr>
+								<td><label for="city">*CITY:</label></td>
+								<td><input id="city" type="text" size="30" value="" name="town" required=""></td>
+							</tr>
+
+							<tr>
+								<td><label for="postal">*ZIP CODE:</label></td>
+								<td><input id="postal" type="text" size="30" value="" name="zip" required=""></td>
+							</tr>
+						
+							<tr>
+								<td><label for="country">*COUNTRY:</label></td>
+								<td><input id="country" type="text" size="30" value="" name="address" required=""></td>
+							</tr>
+
+							<tr>
+								<td><label for="e-mail">*E-MAIL:</label></td>
+								<td><input id="e-mail" type="email" required="" size="30" value="" name="email"></td>
+							</tr>
+						
+							<tr>
+								<td><label for="phone">*PHONE:</label></td>
+								<td><input id="phone" type="text" size="30" value="" name="address" required=""></td>
+							</tr>
+
+						
+						
+						</table>
 						<br><br>
-	
-						<label for="middle-name">MIDDLE NAME:</label>
-						<input id="middle-name" type="text" required="" size="30" value="" name="middleName">
-
-						<br><br>
-	
-						<label for="last-name">*LAST NAME:</label>
-						<input id="last-name" type="text" required="" size="30" value="" name="name">
-
-						<br><br>
-
-						<label for="address">*STREET ADDRESS:</label>
-						<input id="address" type="text" size="30" value="" name="addres" required="">
-
-						<br><br>
-
-						<label for="city">*CITY:</label>
-						<input id="city" type="text" size="30" value="" name="town" required="">
-
-						<br><br>
-
-						<label for="postal">*ZIP CODE:</label>
-						<input id="postal" type="text" size="30" value="" name="zip" required="">
-
-						<br><br>
-
-						<label for="country">*COUNTRY:</label>
-						<input id="country" type="text" size="30" value="" name="address" required="">
-
-						<br><br>
-						<label for="e-mail">*E-MAIL:</label>
-						<input id="e-mail" type="email" required="" size="30" value="" name="email">
-
-						<br><br>
-
-						<label for="phone">*PHONE:</label>
-						<input id="phone" type="text" size="30" value="" name="address" required="">
-
-						<br><br>
-
-						<h1>SELECTED PACKAGE</h1>
+		
+						<h2 id="selectedPackage">SELECTED PACKAGE</h2>
 						<!--IMG CONTAINER-->
 						<p id="ToS-text">BY PRESSING CONFIRM YOU ACCEPT THE <span style="text-decoration:underline;">TERMS & CONDITIONS</span> AND WE WILL REVIEW YOUR REQUEST</p>
 						<input type="submit" value="CONFIRM">

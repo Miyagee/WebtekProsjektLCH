@@ -517,18 +517,41 @@ footer h3 {
 /*-------ORDER---------*/
 .main-container {
     margin-top: 20px;
-    text-align: center;
     color: white;
     font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
     border: 1px solid #887c4d;
     background-color: #070707;
+    width: 100%;
 }
-.main-container h1::first-letter {
+
+.main-container h2 {
+    border-bottom: 1px solid #887c4d;
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+    font-size: 2.8em;
+    margin-top: 20px; /*Bad practice*/
+    font-weight: 100;
+    text-align: center;
+}
+
+.main-container #selectedPackage {
+    border: 1px solid #887c4d;
+}
+
+.main-container h2::first-letter {
   color: #887c4d; /*Sets first letter in each navbar-page to gold*/
 }
 
-label {
-    display: block;
+.main-container table {
+    margin: 0 auto;
+}
+
+.main-container input[type="text"], input[type="email"] {
+    background-color: #887c4d;
+}
+
+.main-container label {
+    display: inline-block;
+    float: right;
 }
 
 .main-container label::first-letter {
