@@ -430,20 +430,19 @@ footer h3 {
 /*------ABOUT--------*/
 
 .content .about_content{
-  margin: 0;
-  top: 30px;
+  margin-top: 20px;
   width:100%;
   position: relative;
   background-color: #070707;
   border: 1px solid #887c4d;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   height: 100%;
   overflow: hidden;
 }
 
 .content .about_header{
   background-color: #070707;
-  border: 1px solid #887c4d;
+  border-bottom: 1px solid #887c4d;
 }
 .about_content h3{
   margin:18px;
