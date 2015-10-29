@@ -121,3 +121,90 @@ footer h3 {
   font-size: 3em;
 }
 
+/*------ABOUT--------*/
+
+.content .about_content{
+  margin: 0;
+  top: 30px;
+  width:100%;
+  position: relative;
+  background-color: #070707;
+  border: 1px solid #887c4d;
+  margin-bottom: 50px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content .about_header{
+  background-color: #070707;
+  border: 1px solid #887c4d;
+}
+.about_content h3{
+  margin:18px;
+  text-align: center;
+  color:white;
+  font-size: 2.6em;
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-weight: 100;
+}
+
+.about_content h3::first-letter {
+  color: #887c4d; /*Sets first letter in each navbar-page to gold*/
+}
+
+.about_content .about_text_box {
+  width: 80%;
+  float:left;
+}
+.about_text_box p{
+  margin:18px;
+  text-align: left;
+  color:white;
+  font-size: 2em;
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-weight: 100;
+
+}
+.about_content p::first-letter {
+  color: #887c4d; /*Sets first letter in each navbar-page to gold*/
+}
+.about_content .about_left_side_information{
+  width:25%;
+  float:left;
+  text-align:left;
+}
+.about_content .about_right_side_information{
+  width:75%;
+  float:right;
+  text-align:left;
+}
+
+.about_content .about_social_media_box{
+  width: 20%;
+  float: right;
+  display: inline-block;
+}
+
+.about_social_media_box img{
+  margin:10px;
+  margin-left:30px;
+  padding-top:20px;
+  height:100px;
+  width: 100px;
+}
+
+.about_selfies{
+  margin-top: 500px;
+}
+.about_selfies h3{
+  text-align:left;
+}
+.about_selfies td{
+  padding-left: 40px;
+}
+.about_selfie{
+  color:white;
+  text-align: center;
+  display: inline;
+}
+
