@@ -161,7 +161,7 @@ main .homepage .definition_div {
 
 /*------PACKAGES--------*/
 
-.main .border_one, .main .border_two, .main .border_three {
+.main_packages .border_one, .main_packages .border_two, .main_packages .border_three {
 	margin: 0;
 	margin-top: 20px;
 	height: 470px;
@@ -185,7 +185,7 @@ main .homepage .definition_div {
 	color: #887c4d;
 }
 
-.main .border_one .f_border_one {
+.main_packages .border_one .f_border_one {
 	height: 85%;
 	width: 310px;
 	position: absolute;
@@ -196,7 +196,7 @@ main .homepage .definition_div {
 
 
 
-.main .border_one .f_border_two {
+.main_packages .border_one .f_border_two {
 	height: 85%;
 	width: 310px;
 	position: absolute;
@@ -206,7 +206,7 @@ main .homepage .definition_div {
 	border: 1px solid #887c4d;
 }
 
-.main .border_one .f_border_three {
+.main_packages .border_one .f_border_three {
 	height: 85%;
 	width: 310px;
 	position: absolute;
@@ -215,7 +215,7 @@ main .homepage .definition_div {
 	border: 1px solid #887c4d;
 }
 
-.main .border_two .s_border_one {
+.main_packages .border_two .s_border_one {
 	height: 85%;
 	width: 310px;
 	position: absolute;
@@ -224,7 +224,7 @@ main .homepage .definition_div {
 	border: 1px solid #887c4d;
 }
 
-.main .border_two .s_border_two {
+.main_packages .border_two .s_border_two {
 	height: 85%;
 	width: 310px;
 	position: absolute;
@@ -234,7 +234,7 @@ main .homepage .definition_div {
 	border: 1px solid #887c4d;
 }
 
-.main .border_two .s_border_three {
+.main_packages .border_two .s_border_three {
 	height: 85%;
 	width: 310px;
 	position: absolute;
@@ -243,7 +243,7 @@ main .homepage .definition_div {
 	border: 1px solid #887c4d;
 }
 
-.main .border_three .t_border_one {
+.main_packages .border_three .t_border_one {
 	height: 85%;
 	width: 310px;
 	position: absolute;
@@ -252,7 +252,7 @@ main .homepage .definition_div {
 	border: 1px solid #887c4d;
 }
 
-.main .border_three .t_border_two {
+.main_packages .border_three .t_border_two {
 	height: 85%;
 	width: 310px;
 	position: absolute;
@@ -262,7 +262,7 @@ main .homepage .definition_div {
 	border: 1px solid #887c4d;
 }
 
-.main .border_three .t_border_three {
+.main_packages .border_three .t_border_three {
 	height: 85%;
 	width: 310px;
 	position: absolute;
@@ -271,7 +271,7 @@ main .homepage .definition_div {
 	border: 1px solid #887c4d;
 }
 
-.main .border_one .f_border_one .inception {
+.main_packages .border_one .f_border_one .inception {
 	height: 20%;
 	width: 310px;
 	position: absolute;
@@ -280,7 +280,7 @@ main .homepage .definition_div {
 	border: 1px solid #887c4d;
 }
 
-.main .border_one .f_border_one .inception p {
+.main_packages .border_one .f_border_one .inception p {
 	margin-top: 30px;
 	text-align: center;
 	color: white
