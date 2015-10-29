@@ -8,15 +8,13 @@
 	<body>
 		<div class="content">
 			<header>
-				<div class="navbar">
-					<ul>
-						<li><a href="#">HOME</a></li>
-						<li><a href="#">PACKAGES</a></li>
-						<li>logo.jpg</li>
-						<li><a href="#">ORDER</a></li>
-						<li><a href="#">ABOUT</a></li>
-					</ul>
-				</div>
+        <a href="homepage.html"><img src="img/logo.png" alt="Logo"/></a>
+        <div class="navbar">
+          <a href="homepage.html"><div class="navbox" id="home_div"><h2>HOME</h2></div></a>
+          <a href="packages.html"><div class="navbox" id="packages_div"><h2>PACKAGES</h2></div></a>
+          <a href="about.html"><div class="navbox" id="about_div"><h2>ABOUT</h2></div></a>
+          <a href="order.html"><div class="navbox" id="order_div"><h2>ORDER</h2></div></a>
+        </div>
 			</header>
 
 			<main>
@@ -25,63 +23,68 @@
 						<h1>CONTACT INFORMATION</h1>
 
 						<label for="first-name">*FIRST NAME:</label>
-						<input id="first-name" type="text" required="" size="30" value="" name="firstName"></input>
+						<input id="first-name" type="text" required="" size="30" value="" name="firstName">
 
-						<br></br>
+						<br><br>
 	
 						<label for="middle-name">MIDDLE NAME:</label>
-						<input id="middle-name" type="text" required="" size="30" value="" name="middleName"></input>
+						<input id="middle-name" type="text" required="" size="30" value="" name="middleName">
 
-						<br></br>
+						<br><br>
 	
 						<label for="last-name">*LAST NAME:</label>
-						<input id="last-name" type="text" required="" size="30" value="" name="name"></input>
+						<input id="last-name" type="text" required="" size="30" value="" name="name">
 
-						<br></br>
+						<br><br>
 
 						<label for="address">*STREET ADDRESS:</label>
-						<input id="address" type="text" size="30" value="" name="addres" required=""></input>
+						<input id="address" type="text" size="30" value="" name="addres" required="">
 
-						<br></br>
+						<br><br>
 
 						<label for="city">*CITY:</label>
-						<input id="city" type="text" size="30" value="" name="town" required=""></input>
+						<input id="city" type="text" size="30" value="" name="town" required="">
 
-						<br></br>
+						<br><br>
 
 						<label for="postal">*ZIP CODE:</label>
-						<input id="postal" type="text" size="30" value="" name="zip" required=""></input>
+						<input id="postal" type="text" size="30" value="" name="zip" required="">
 
-						<br></br>
+						<br><br>
 
 						<label for="country">*COUNTRY:</label>
-						<input id="country" type="text" size="30" value="" name="address" required=""></input>
+						<input id="country" type="text" size="30" value="" name="address" required="">
 
-						<br></br>
+						<br><br>
 						<label for="e-mail">*E-MAIL:</label>
-						<input id="e-mail" type="email" required="" size="30" value="" name="email"></input>
+						<input id="e-mail" type="email" required="" size="30" value="" name="email">
 
-						<br></br>
+						<br><br>
 
 						<label for="phone">*PHONE:</label>
-						<input id="phone" type="text" size="30" value="" name="address" required=""></input>
+						<input id="phone" type="text" size="30" value="" name="address" required="">
 
-						<br></br>
+						<br><br>
 
 						<h1>SELECTED PACKAGE</h1>
 						<!--IMG CONTAINER-->
 						<p id="ToS-text">BY PRESSING CONFIRM YOU ACCEPT THE <span style="text-decoration:underline;">TERMS & CONDITIONS</span> AND WE WILL REVIEW YOUR REQUEST</p>
-						<input type="submit" value="CONFIRM"></input>
-						<input type="submit" value="CANCEL"></input>
+						<input type="submit" value="CONFIRM">
+						<input type="submit" value="CANCEL">
+			
+						<br><br>
 					</form>
 				</div>
 			</main>
 
 			<footer>
-				<div class="footer-container">
-					<p>Made by JL, SK, JJ, DD and HTD</p>
-					<p><a>FAQ</a></p>
+				<div class="developer_div">
+					<h4>WEB-DEVELOPER: WEBDESIGN AS</h4>
+					<h4>CONTACT@WEBDESIGN.COM</h4>
 				</div>
+				<a href="faq.html"><div class="faq_div">
+					<h3>FAQ</h3>
+				</div></a>
 			</footer>			
 		</div>
 	</body>
