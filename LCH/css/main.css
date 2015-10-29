@@ -345,3 +345,22 @@ footer h3 {
   font-size: 3em;
 }
 
+/*-------ORDER---------*/
+.main-container {
+    text-align: center;
+    color: white;
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+    border: 1px solid #887c4d;
+    background-color: #070707;
+}
+.main-container h1::first-letter {
+  color: #887c4d; /*Sets first letter in each navbar-page to gold*/
+}
+
+label {
+    display: block;
+}
+
+.main-container label::first-letter {
+    color: #887c4d;
+}
