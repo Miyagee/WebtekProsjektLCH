@@ -431,7 +431,7 @@ footer h3 {
 
 .content .about_content{
   margin: 0;
-  top: 30px;
+  top: 20px;
   width:100%;
   position: relative;
   background-color: #070707;
@@ -443,7 +443,7 @@ footer h3 {
 
 .content .about_header{
   background-color: #070707;
-  border: 1px solid #887c4d;
+  border-bottom: 1px solid #887c4d;
 }
 .about_content h3{
   margin:18px;
