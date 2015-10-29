@@ -347,6 +347,7 @@ footer h3 {
 
 /*-------ORDER---------*/
 .main-container {
+    margin-top: 20px;
     text-align: center;
     color: white;
     font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
