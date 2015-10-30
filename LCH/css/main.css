@@ -579,3 +579,68 @@ footer h3 {
 }
 
 
+/*--------FAQ-----------*/
+
+
+.content main .main_faq {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #887c4d;
+  background-color: #070707;
+}
+
+main .main_faq .faq_header {
+  width: 100%;
+  border-bottom: 1px solid #887c4d;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.main_faq .faq_header h3 {
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-size: 2.6em;
+  font-weight: 100;
+  color: white;
+  margin: 18px;
+}
+
+.main_faq .faq_header h3::first-letter {
+  color: #887c4d;
+}
+
+.main_faq .answer {
+  width: 80%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.main_faq .question {
+  margin: auto;
+  width: 93%
+}
+
+.main_faq p {
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.main_faq .question p {
+  color: #887c4d;
+  font-size: 2em;
+}
+
+.main_faq .answer p {
+  color: white;
+  font-size: 1.7em;
+  line-height: 1.4em;
+}
+
+.main_faq .answer p::first-letter {
+  color: #887c4d;
+}
+
+
+
