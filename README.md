@@ -18,23 +18,11 @@ Work division and Deadlines
 
 Filename 	Description 	In charge 	Deadline
 
-homepage.html 	The homepage 	Joachim 	29.10.2015
-
-packages.html 	Containing the various types of packages 	Huy 	29.10.2015
-
-order.html 	Where you order said packages 	Jie 	29.10.2015
-
-about.html 	Bio on Ben Redic Fy Fazan, (his selfies), and information on LCH 	Simon 	29.10.2015
-
-faq.html 	Frequently asked questions 	Didrik 	29.10.2015
-
 category1subx.html 	One of the many subpages containing a package under its category 	Huy 	05.11.2015
 
 category2subx.html 	One of the many subpages containing a package under its category 	Jie 	05.11.2015
 
 category3subx.html 	One of the many subpages containing a package under its category 	Simon 	05.11.2015
-
-headerLogo.jpg 	Logo for the header 	Joachim 	02.11.2015
 
 imgSlider.js 	A javascript for sliding images on the frontpage 	Didrik 	10.11.2015
 
