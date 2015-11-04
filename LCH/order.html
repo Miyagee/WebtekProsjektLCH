@@ -19,52 +19,65 @@
 
 			<main>
 				<div class="main-container">
-					<form>
+					<form onsubmit="return false;">
 						<h2>CONTACT INFORMATION</h2>
 						<table>
 							 <tr>
 								<td><label for="first-name">*FIRST NAME:</label></td>
-								<td><input id="first-name" type="text" required="" size="30" value="" name="firstName"></td>
+								<td><input id="first-name" type="text" size="30" value="" name="firstName"></td>
 							</tr>
 
 							<tr>
 								<td><label for="middle-name">MIDDLE NAME:</label></td>
-								<td><input id="middle-name" type="text" required="" size="30" value="" name="middleName"></td>
+								<td><input id="middle-name" type="text" size="30" value="" name="middleName"></td>
 							</tr>
 
 							<tr>
 								<td><label for="last-name">*LAST NAME:</label></td>
-								<td><input id="last-name" type="text" required="" size="30" value="" name="name"></td>
+								<td><input id="last-name" type="text" size="30" value="" name="name"></td>
 							</tr>
 
 							<tr>
 								<td><label for="address">*STREET ADDRESS:</label></td>
-								<td><input id="address" type="text" size="30" value="" name="addres" required=""></td>
+								<td><input id="address" type="text" size="30" value="" name="addres"></td>
 							</tr>
 
 							<tr>
 								<td><label for="city">*CITY:</label></td>
-								<td><input id="city" type="text" size="30" value="" name="town" required=""></td>
+								<td><input id="city" type="text" size="30" value="" name="town"></td>
 							</tr>
 
 							<tr>
 								<td><label for="postal">*ZIP CODE:</label></td>
-								<td><input id="postal" type="text" size="30" value="" name="zip" required=""></td>
+								<td><input id="postal" type="text" size="6" value="" name="zip"></td>
 							</tr>
 						
 							<tr>
 								<td><label for="country">*COUNTRY:</label></td>
-								<td><input id="country" type="text" size="30" value="" name="address" required=""></td>
+								<td><select id="country"  name="Country">
+        <option value="000" selected="selected">[Choose yours]</option>
+        <option value="008">USA</option>
+        <option value="012">UK</option>
+        <option value="016">Norway</option>
+        <option value="020">France</option>
+        <option value="024">China</option>
+        <option value="660">Japan</option>
+        <option value="010">Spain</option>
+        <option value="028">Argentina</option>
+        <option value="032">Romania</option>
+        <option value="051">Chile</option>
+        <option value="533">Holland</option>
+    </select></td>
 							</tr>
 
 							<tr>
 								<td><label for="e-mail">*E-MAIL:</label></td>
-								<td><input id="e-mail" type="email" required="" size="30" value="" name="email"></td>
+								<td><input id="e-mail" type="email" size="30" value="" name="email"></td>
 							</tr>
 						
 							<tr>
 								<td><label for="phone">*PHONE:</label></td>
-								<td><input id="phone" type="text" size="30" value="" name="address" required=""></td>
+								<td><input id="phone" type="text" size="30" value="" name="Phone"></td>
 							</tr>
 
 						
@@ -75,8 +88,8 @@
 						<h2 id="selectedPackage">SELECTED PACKAGE</h2>
 						<!--IMG CONTAINER-->
 						<p id="ToS-text">BY PRESSING CONFIRM YOU ACCEPT THE <span style="text-decoration:underline;">TERMS & CONDITIONS</span> AND WE WILL REVIEW YOUR REQUEST</p>
-						<input type="submit" value="CONFIRM">
-						<input type="submit" value="CANCEL">
+						<input type="submit" value="CONFIRM" onclick="";>
+						<input type="submit" value="CANCEL" onclick="alert('You canceled the order'); window.location = 'homepage.html';" >
 			
 						<br><br>
 					</form>
