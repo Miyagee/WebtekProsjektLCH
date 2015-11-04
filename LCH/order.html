@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Order</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script src="js/validation.js"></script>
 	</head>
 	<body>
 		<div class="content">
@@ -19,7 +20,7 @@
 
 			<main>
 				<div class="main-container">
-					<form onsubmit="return false;">
+					<form name="orderForm" onsubmit="return validateForm();">
 						<h2>CONTACT INFORMATION</h2>
 						<table>
 							 <tr>
@@ -88,7 +89,7 @@
 						<h2 id="selectedPackage">SELECTED PACKAGE</h2>
 						<!--IMG CONTAINER-->
 						<p id="ToS-text">BY PRESSING CONFIRM YOU ACCEPT THE <span style="text-decoration:underline;">TERMS & CONDITIONS</span> AND WE WILL REVIEW YOUR REQUEST</p>
-						<input type="submit" value="CONFIRM" onclick="";>
+						<input type="submit" value="CONFIRM">
 						<input type="submit" value="CANCEL" onclick="alert('You canceled the order'); window.location = 'homepage.html';" >
 			
 						<br><br>
