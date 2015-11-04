@@ -18,12 +18,14 @@ Work division and Deadlines
 
 Filename 	Description 	In charge 	Deadline
 
+Changed to 1 subpage by 10.11.2015
+/*
 category1subx.html 	One of the many subpages containing a package under its category 	Huy 	05.11.2015
 
 category2subx.html 	One of the many subpages containing a package under its category 	Jie 	05.11.2015
 
 category3subx.html 	One of the many subpages containing a package under its category 	Simon 	05.11.2015
-
+*/
 imgSlider.js 	A javascript for sliding images on the frontpage 	Didrik 	10.11.2015
 
 dropDownMenu.js 	A javascript for a dropdown menu when hovered/clicked upon/on 	Joachim 	10.11.2015
