@@ -20,10 +20,10 @@ function popUp(id){
 	init();	
     subWindow.onload = setTimeout("fillData("+id+")", 1000);
         //Redirects to order.html
-	subWindow.document.getElementById("order").addEventListener("click", function() {redirectOrder(1);});
+	//subWindow.document.getElementById("order").addEventListener("click", function() {redirectOrder(1);});
 
 		//Close window
-	subWindow.document.getElementById("close").addEventListener("click", function() {closePage();}); 
+	//subWindow.document.getElementById("close").addEventListener("click", function() {closePage();}); 
     
 	
 }
