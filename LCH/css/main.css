@@ -20,6 +20,7 @@ body {
   height: 150px;
   width: 100%;
   position: relative;
+  overflow: visible;
 }
 
 .content header img {
@@ -32,7 +33,7 @@ body {
   border: 1px solid #887c4d;
   border-radius: 100%;
   /*-webkit-border-radius: 100%;*/  /*Makes the border go around the image*/
-  z-index: 10;
+  z-index: 70;
 }
 
 .content header .navbar {
@@ -43,8 +44,10 @@ body {
   top: 50%;
   margin-top: -45px;  /*Top and margin-top necessary for centering the navbar*/
   background-color: #070707;
-  z-index: 9;
+  z-index: 60;
   border: 1px solid #887c4d;
+  overflow: visible;
+  clear: both;
 }
 
 .navbar .navbox {
@@ -78,6 +81,54 @@ body {
 .content header .navbar h2::first-letter {
   color: #887c4d; /*Sets first letter in each navbar-page to gold*/
 }
+
+/*NVETJSGPQORWAEKFMRVEPINGAJOAMRWPOSGIJNJENOTDFSMØGLFSKGANSKGMAFLDSGMHNBKFDGV;ØLAFDBMAEØRKSGDLMV*/
+
+.dd_div {
+  margin: 0;
+  width: 16%;
+  margin-left: 16%;
+  height: 21%;
+  position: absolute;
+  bottom: 0;
+  z-index: 50;
+}
+
+.dd_div .dd_list {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0 30% 0 30%;
+  background-color: #070707;
+  border: 1px solid #887c4d;
+}
+
+.dd_list li {
+  margin: 0;
+}
+
+.dd_div .dd_list a {
+  text-decoration: none;
+}
+
+.dd_div .dd_list h4 {
+  margin: 0;
+  font-size: 2em;
+  line-height: 2em;
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+  color: white;
+}
+
+.dd_div .dd_list h4::first-letter {
+  color: #887c4d;
+}
+
+.dd_div .dd_list li:hover h4 {
+  color: #887c4d;
+}
+
 
 /*------HOMEPAGE--------*/
 
