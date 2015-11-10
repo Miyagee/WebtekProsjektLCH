@@ -5,28 +5,99 @@ body {
 
 h1 {
 	border-bottom: solid 1px #887c4d;
+  color: white;
+  margin: 0;
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  text-align: center;
+}
+
+h1::first-letter{
+  color: #887c4d;
 }
 
 #p1 {
+  color: white;
 
 }
 
 #p2 {
+  color: white;
 
 }
 
 #p3 {
+  color: white;
+  clear:both;
 
+}
+.left-text{
+  width: 450px;
+  float:left;
+}
+p {
+  margin-left: 10px;
+  color: white;
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-weight: 100;
+  font-size: 1.3em;
+}
+
+p::first-letter {
+  color: #887c4d;
+}
+
+.pictures{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align:center;
+  width: 300px;
+  float:right;
 }
 
 #img1 {
+  height: 220px;
+  width: 260px;
 
 }
 
 #img2 {
+  height: 220px;
+  width: 260px;
 
 }
+.button-box{
+  width:50%;
+  text-align:center;
+  margin: auto;
+}
+.button-box button{
+	border:solid 1px #887c4d;
+  background-color: #887c4d; 
+  color: white;
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-weight: 100;
+  font-size: 1.45em;
+  padding: 5px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  width: 140px;
+  margin-bottom: 30px;
+}
 
-#img3 {
-
+.close-box{
+  text-align: right;
+  overflow: hidden;
+  float: right;
+}
+.close-box button{
+	border:solid 1px #887c4d;
+  height: 30px;
+  background-color: #887c4d; 
+  color: white;
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-weight: 100;
+  font-size: 1.45em;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  overflow: hidden;
 }
