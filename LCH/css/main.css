@@ -596,8 +596,10 @@ footer h3 {
     margin: 0 auto;
 }
 
-.main-container input[type="text"], input[type="email"] {
+.main-container input[type="text"], input[type="email"], select {
     background-color: #887c4d;
+	float: left;
+	color: white;
 }
 
 .main-container label {
@@ -614,7 +616,7 @@ footer h3 {
      color: #887c4d;
 }
 
-.main-container input[type="submit"] {
+.main-container input[type="submit"] , button {
     background-color: #887c4d;
     color: white;
     width: 200px;
