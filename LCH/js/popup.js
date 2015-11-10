@@ -17,6 +17,14 @@ window.addEventListener("load", function() {
 
 function popUp(id){	
 	init(id);	
+
+        //Redirects to order.html
+	//subWindow.document.getElementById("order").addEventListener("click", function() {redirectOrder(1);});
+
+		//Close window
+	//subWindow.document.getElementById("close").addEventListener("click", function() {closePage();}); 
+    
+	
 }
 
 function init(id){
