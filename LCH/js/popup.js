@@ -2,17 +2,21 @@ window.addEventListener("load", function() {
 	//Package id's for popup
 	document.getElementById("pack-1").addEventListener("click", function() {popUp(1);});
 	document.getElementById("pack-2").addEventListener("click", function() {popUp(2);});
-	//Redirects to order.html
-	//document.getElementById("order").addEventListener("click", function() {closePage();});
-	//Close window
-	//document.getElementById("close").addEventListener("click", function() {closePage();});
+	
 
 });
 
 
 function popUp(id){
+	var middle = (screen.width*0.5)-400;
 	var subWindow = window.open("packages/subpackage.html","Subpackage",
-                                   "toolbar = no, location = no, status = no, menubar = no, scrollbars = yes, resizable = no, width = 800px", false);
+                                   "titlebar = no, toolbar = no, location = no, status = no, menubar = no, scrollbars = yes, resizable = no, width = 800px, left="+ middle +"", false);
+
+	//console.log(screen.width*0.5-400);
+	//Redirects to order.html
+	subWindow.getElementById("order").addEventListener("click", function() {closePage();});
+	//Close window
+	subWindow.getElementById("close").addEventListener("click", function() {closePage();});
 
 	if (id === 1){
 		subWindow.getElementById("package-header").innerHTML = "";
