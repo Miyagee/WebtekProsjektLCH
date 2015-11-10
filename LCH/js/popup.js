@@ -16,22 +16,13 @@ window.addEventListener("load", function() {
 });
 
 function popUp(id){	
-
-	init();	
-    subWindow.onload = setTimeout("fillData("+id+")", 1000);
-        //Redirects to order.html
-	subWindow.document.getElementById("order").addEventListener("click", function() {redirectOrder(1);});
-
-		//Close window
-	subWindow.document.getElementById("close").addEventListener("click", function() {closePage();}); 
-    
-	
+	init(id);	
 }
 
-function init(){
-    subWindow = window.open("packages/subpackage.html","Subpackage", "titlebar = no, toolbar = no, location = no, status = no, menubar = no, scrollbars = yes, resizable = no, height = 720, width = 800, left="+ middle +"", false);
+function init(id){
+    subWindow = window.open("packages/subpackage"+id +".html","Subpackage", "titlebar = no, toolbar = no, location = no, status = no, menubar = no, scrollbars = yes, resizable = no, height = 720, width = 800, left="+ middle +"", false);
 }
-
+/*
 function fillData(id){
     //Conditions for which page to load
 		if (id === 1){
@@ -107,6 +98,12 @@ function fillData(id){
 			subWindow["img1"].src = "";
 			subWindow["img2"].src = "";
 		};
+            //Redirects to order.html
+	subWindow.document.getElementById("order").addEventListener("click", function() {redirectOrder(1);});
+
+		//Close window
+	subWindow.document.getElementById("close").addEventListener("click", function() {closePage();}); 
+    
 }
 
 function redirectOrder(id) {
@@ -117,4 +114,4 @@ function redirectOrder(id) {
 function closePage(){
 	subWindow.close();
 }
-
+*/
