@@ -662,9 +662,14 @@ footer h3 {
     margin: 0 auto;
 }
 
-.main-container input[type="text"], input[type="email"], select {
+.main-container input[type="text"], input[type="email"], #country {
     background-color: #887c4d;
 	float: left;
+	color: white;
+}
+
+#packagenr {
+	background-color: #887c4d;
 	color: white;
 }
 
@@ -680,6 +685,12 @@ footer h3 {
 
 #form-des {
      color: #887c4d;
+}
+
+#packageName {
+	color: white;
+	font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+	font-size: 2em;
 }
 
 .main-container input[type="submit"] , button {

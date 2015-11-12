@@ -25,6 +25,11 @@ function validateForm() {
     }
 
 	x = document.forms["orderForm"]["postal"].value;
+	var isNumber =  /^\d+$/.test(x);
+	if (isNumber === false){
+		alert("ZIP can only contain numbers");
+		return false;
+	}
 	if (x == null || x == "") {
         alert("ZIP is missing");
         return false;
@@ -43,8 +48,18 @@ function validateForm() {
     }
 
 	x = document.forms["orderForm"]["phone"].value;
+	var isNumber =  /^\d+$/.test(x);
+	if (isNumber === false){
+		alert("Phone number can only contain numbers");
+		return false;
+	}
 	if (x == null || x == "") {
         alert("Phone number is required");
+        return false;
+    }
+	x = document.forms["orderForm"]["packagenr"].value;
+	if (x == "000") {
+        alert("Please choose your package");
         return false;
     }
 	

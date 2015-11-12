@@ -6,7 +6,8 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="shortcut icon" href="img/logoIcon.ico" />
     <script src="js/dropdown.js"></script>
-		<script src="js/validation.js"></script>
+	<script src="js/validation.js"></script>
+	<script src="js/loadPackage.js"></script>
 	</head>
 	<body>
 		<div class="content">
@@ -65,19 +66,19 @@
 							<tr>
 								<td><label for="country">*COUNTRY:</label></td>
 								<td><select id="country"  name="Country">
-        <option value="000" selected="selected">[Choose yours]</option>
-        <option value="008">USA</option>
-        <option value="012">UK</option>
-        <option value="016">Norway</option>
-        <option value="020">France</option>
-        <option value="024">China</option>
-        <option value="660">Japan</option>
-        <option value="010">Spain</option>
-        <option value="028">Argentina</option>
-        <option value="032">Romania</option>
-        <option value="051">Chile</option>
-        <option value="533">Holland</option>
-    </select></td>
+									<option value="000" selected="selected">[Choose yours]</option>
+									<option value="008">USA</option>
+									<option value="012">UK</option>
+									<option value="016">Norway</option>
+									<option value="020">France</option>
+									<option value="024">China</option>
+									<option value="660">Japan</option>
+									<option value="010">Spain</option>
+									<option value="028">Argentina</option>
+									<option value="032">Romania</option>
+									<option value="051">Chile</option>
+									<option value="533">Holland</option>
+								</select></td>
 							</tr>
 
 							<tr>
@@ -96,7 +97,23 @@
 						<p id="form-des">*FIELD REQUIRED</p>
 		
 						<h2 id="selectedPackage">SELECTED PACKAGE</h2>
-						<!--IMG CONTAINER-->
+							
+							<select id="packagenr"  name="Package" onchange="loadPackage();">
+								<option value="000" selected="selected">[Choose your package]</option>
+								<option value="0a">Mixed 1</option>
+								<option value="0b">Mixed 2</option>
+								<option value="0c">Mixed 3</option>
+								<option value="0d">Vehicle 1</option>
+								<option value="0e">Vehicle 2</option>
+								<option value="0f">Vehicle 3</option>
+								<option value="0g">Home 1</option>
+								<option value="0h">Home 2</option>
+								<option value="0i">Home 3</option>
+    						</select>
+						<br><br>
+						<img src="" id="packagePic" alt="Choose a package"/>
+						<h3 id="packageName"></h3>
+						
 						<p id="ToS-text">BY PRESSING CONFIRM YOU ACCEPT THE <span><a href="#" style="color: #887C4D;">TERMS & CONDITIONS</a></span> AND WE WILL REVIEW YOUR REQUEST</p>
 						<input type="submit" value="CONFIRM">
 						<button onclick="alert('You canceled the order'); window.location = 'homepage.html'; return false;">CANCEL</button>
