@@ -11,7 +11,9 @@ var x;
 function loadPackage(){
 	x = document.getElementById("packagenr").value;
 	if (x == "000") {
-        document.getElementById("packagePic").src="";
+        document.getElementById("packagePic").src="img/noPackage.js";
+	
+	document.getElementById("packageName").innerHTML="Price";
     }
 	else if(x === "0a"){
 		document.getElementById("packagePic").src="img/packages/package_1.jpg";
