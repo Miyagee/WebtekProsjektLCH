@@ -1,6 +1,13 @@
+/*
+FILE NAME: js/loadPackage.js
+WRITTEN BY: Jie Li
+WHEN: November 2015
+PURPOSE: Loads the selected package in the order.html page
+*/
 
 var x;
 
+//Checks which package is selected and loads it
 function loadPackage(){
 	x = document.getElementById("packagenr").value;
 	if (x == "000") {

@@ -1,5 +1,11 @@
+/*
+FILE NAME: js/hoverPackage.js
+WRITTEN BY: Jie Li and Huy Thanh Do
+WHEN: November 2015
+PURPOSE: Shows additional information about the packages when they are hovered (in packages.html)
+*/
 
-	var tekst;
+  var tekst;
 	var imgen;
 	var taggen;
 	var ruta;
@@ -7,6 +13,7 @@
 	window.addEventListener("load", packHover);
 
 	function packHover() {
+    //Adds mouseover-functions to every package
 		document.getElementById("pack-1").onmouseover = function() {setBoxInfo(1);};				
 		document.getElementById("pack-2").onmouseover = function() {setBoxInfo(2);};		
 		document.getElementById("pack-3").onmouseover = function() {setBoxInfo(3);};
@@ -20,6 +27,7 @@
 		mouseOver = false;
 		}
 
+  //Sets info about every package and adds eventlistener to them
 	function setBoxInfo(id){
 		tekst = document.getElementById("hoverText"+id);
 		imgen = document.getElementById("pack"+id);
@@ -31,6 +39,7 @@
 		ruta.addEventListener("mouseleave", picShow);
 	}
 				
+  //Display text box on top of package when hovered
 	function hover() {
 		mouseOver = true;
 		tekst.style.display = "block";
@@ -38,6 +47,7 @@
 		tekst.style.marginTop = "100px";
 		}
 				
+  //Hides the text box and displays the package picture
 	function picShow() {
 		if (mouseOver) {
 			imgen.style.display = "initial";
@@ -46,7 +56,8 @@
 			tekst.style.display = "none";
 			}
 		}
-			
+		
+  //Hides the package picture when hovered
 	function picHide() {
 		mouseOver = true;
 		imgen.style.display = "none";
