@@ -1,5 +1,17 @@
+<!--
+FILE NAME: packages/subpackage1.html
+WRITTEN BY: Simon Kvannli 
+WHEN: Nov 2015
+PURPOSE: The subpackages are the popup when a specific packages is clicked on the packages page.
+These html files are ment to NOT be resizable, but due to OS restrictions, this is not possible.
+The comments in this file are for all subpackages 1-9. 
+-->
+
 <!DOCTYPE html>
 <html>
+
+  <!-- Header to set charset, title, css and js connections-->
+
   <head>
     <meta charset="UTF-8">
     <title>Package</title>
@@ -7,10 +19,15 @@
     <link rel="shortcut icon" href="../img/logoIcon.ico" />
   </head>
 	
+  <!-- Body of the popup. Hopefully most class names are descriptive enaugh-->
 	<body>
+    <!-- close button -->
     <div class="close-box" id="close">
       <button>X</button>
     </div>
+
+    <!--Package header-->
+
 		<h1 id="package-header">MIXED PACKAGE #1</h1>
     <div class="left-text">
 
@@ -23,6 +40,9 @@
 
       </p>
     </div>
+
+    <!-- Two pictures for the popup put on the right side -->
+
     <div class="pictures">
       <img src="../img/packages/package_1.jpg" alt="package1" id="img1"/>
       <img src="../img/packages/package_1.jpg" alt="package1" id="img2"/>
@@ -31,9 +51,13 @@
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id pretium sapien. Praesent tincidunt, mauris eget facilisis accumsan, orci mauris porttitor mi, sit amet lobortis erat odio ac massa. Proin congue massa ut sodales elementum. Integer in tellus eu tellus finibus finibus eget quis justo. 
 
     </p>
+    <!-- Order button -->
     <div class="button-box">
       <button id="order">ORDER</button>
     </div>
+
+    <!-- Script link for the order and close buttons -->
+
     <script src="../js/order-close.js"></script>
 	</body>
 </html>
