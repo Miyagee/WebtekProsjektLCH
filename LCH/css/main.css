@@ -665,9 +665,11 @@ footer h3 {
 }
 
 .main-container input[type="text"], input[type="email"], #country {
-    background-color: #887c4d;
+  background-color: #887c4d;
+  font-size: 1.5em;
 	float: left;
 	color: white;
+  border: 0px solid #887c4d;
 }
 
 #packagenr {
@@ -704,6 +706,13 @@ footer h3 {
     font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
     font-size: 2em;
     font-weight: 100;
+}
+
+.main-container label {
+  font-size: 1.8em;
+  font-weight: 100;
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+
 }
 
 .main-container label::first-letter {
