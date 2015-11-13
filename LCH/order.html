@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
+	<!--
+	FILE NAME:	order.html
+	WRITTEN BY:	Jie Li
+	WHEN:	November 2015
+	PURPOSE:	Making it easy for people to order different packages
+	-->
 	<head>
+		<!-- Adding charset, title, favicon and links -->
 		<meta charset="UTF-8">
 		<title>Order</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
-    <link rel="shortcut icon" href="img/logoIcon.ico" />
-    <script src="js/dropdown.js"></script>
-	<script src="js/validation.js"></script>
-	<script src="js/loadPackage.js"></script>
+		<link rel="shortcut icon" href="img/logoIcon.ico" />
+		<!-- Loading scripts -->
+		<script src="js/dropdown.js"></script>
+		<script src="js/validation.js"></script>
+		<script src="js/loadPackage.js"></script>
 	</head>
 	<body>
+		<!-- Making a wrapper for the entire site -->
 		<div class="content">
+			<!-- The navbar -->
 			<header>
         <a href="homepage.html"><img src="img/logo.png" alt="Logo"/></a>
         <div class="navbar">
@@ -19,6 +29,7 @@
           <a href="about.html"><div class="navbox" id="about_div"><h2>ABOUT</h2></div></a>
           <a href="order.html"><div class="navbox" id="order_div"><h2>ORDER</h2></div></a>
         </div>
+		<!-- Dropdown list elements -->
         <div class="dd_div">
             <ul class="dd_list" id="dd">
               <li><a href="packages.html#mixedAnchor"><i class="mixed_nav"></i><h4>MIXED</h4></a></li>
@@ -27,9 +38,10 @@
             </ul>
         </div>
 			</header>
-
+			<!-- Ordering form for the packages -->
 			<main>
 				<div class="main-container">
+					<!-- Onsubmit checks for validation with validateForm() -->
 					<form name="orderForm" onsubmit="return validateForm();">
 						<h2>CONTACT INFORMATION</h2>
 						<table>
@@ -97,7 +109,7 @@
 						<p id="form-des">*FIELD REQUIRED</p>
 		
 						<h2 id="selectedPackage">SELECTED PACKAGE</h2>
-							
+							<!-- Select package in a combobox and load with loadPackage() function -->
 							<select id="packagenr"  name="Package" onchange="loadPackage();">
 								<option value="000" selected="selected">[Choose your package]</option>
 								<option value="0a">Mixed 1</option>
@@ -122,7 +134,7 @@
 					</form>
 				</div>
 			</main>
-
+			<!-- Footer with dev info and FAQ -->
 			<footer>
 				<div class="developer_div">
 					<h4>WEB-DEVELOPER: WEBDESIGN AS</h4>
