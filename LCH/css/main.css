@@ -9,6 +9,7 @@ body {
 }
 
 .content {
+  zoom: 0.75; 
   width: 960px;
   margin: 30px auto;
 }
