@@ -1,3 +1,11 @@
+/**
+ * FILE NAME: css/subpackage.css
+ * WRITTEN BY: Simon Kvannli 
+ * WHEN: Nov 2015
+ * PURPOSE:  CSS for the 9 subpackages / popups
+ */
+
+/* CSS for main layout and text styles */
 body {
 	background-color: black;
 	border:solid 1px #887c4d;
@@ -13,6 +21,20 @@ h1 {
   text-align: center;
 }
 
+p {
+  margin-left: 10px;
+  color: white;
+  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+  font-weight: 100;
+  font-size: 1.3em;
+}
+
+p::first-letter {
+  color: #887c4d;
+}
+
+/* Making first letter gold */
+
 h1::first-letter{
   color: #887c4d;
 }
@@ -27,6 +49,8 @@ h1::first-letter{
 
 }
 
+/* Clear both to get last paragraph under pictures */
+
 #p3 {
   color: white;
   clear:both;
@@ -36,17 +60,8 @@ h1::first-letter{
   width: 60%;
   float:left;
 }
-p {
-  margin-left: 10px;
-  color: white;
-  font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
-  font-weight: 100;
-  font-size: 1.3em;
-}
 
-p::first-letter {
-  color: #887c4d;
-}
+/* Picture sizes and position */
 
 .pictures{
   margin-top: 10px;
@@ -67,6 +82,9 @@ p::first-letter {
   width: 260px;
 
 }
+
+/* Button sizes, positions and layout */
+
 .button-box{
   width:50%;
   text-align:center;
