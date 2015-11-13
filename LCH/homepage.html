@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+  <!--
+    FILE NAME: homepage.html
+    WRITTEN BY: Joachim Jorgensen
+    WHEN: November 2015
+    PURPOSE: Homepage of LUXURY CLUB HOUSE. This site will give the visitor a feel of the site and will mainly provide links to the rest of the page. This site will also contain a jumbotron of highlitets images and packages.
+  -->
   <head>
     <meta charset="UTF-8">
     <title>Home</title>
@@ -12,13 +18,20 @@
   <body>
     <div class="content">
       <header>
+        <!-- NAVBAR -->
+
+        <!-- The logo in the navbar -->
         <a href="homepage.html"><img src="img/logo.png" alt="Logo"/></a>
         <div class="navbar">
+
+          <!-- Links to the other sites in the navbar -->
           <a href="homepage.html"><div class="navbox" id="home_div"><h2>HOME</h2></div></a>
           <a href="packages.html"><div class="navbox" id="packages_div"><h2>PACKAGES</h2></div></a>
           <a href="about.html"><div class="navbox" id="about_div"><h2>ABOUT</h2></div></a>
           <a href="order.html"><div class="navbox" id="order_div"><h2>ORDER</h2></div></a>
         </div>
+
+        <!-- The dropdown menu in the navbar -->
         <div class="dd_div">
             <ul class="dd_list" id="dd">
               <li><a href="packages.html#mixedAnchor"><i class="mixed_nav"></i><h4>MIXED</h4></a></li>
@@ -29,7 +42,10 @@
       </header>
 
       <main>
+        <!-- Content of the site -->
         <div class="homepage">
+
+          <!-- The definition-div wehere luxury is defined -->
           <div class="definition_div">
             <div class="def_head">
               <div class="luxury_div"><h1 id="luxury">LUXURY</h1></div>
@@ -40,11 +56,16 @@
             </div>
           </div>
 
+          <!-- The imageslider (carousel) -->
           <div class="jumbotron">
+
+            <!-- The navigation buttons on the carousel -->
             <div class="arrows">
               <div class="arrow" id="larrow"><h1>&lt;</h1></div>
               <div class="arrow" id="rarrow"><h1>&gt;</h1></div>
             </div>
+
+            <!-- The images used in the carousel -->
             <div class="slider_div" id="slider_div">
               <img src="img/dubai/slider1.jpg" alt="slider1" />
               <img src="img/dubai/slider2.jpg" alt="slider2" />
@@ -54,11 +75,16 @@
             </div>
           </div>
 
+          <!-- The "deal of the week" div -->
           <div class="deal_div">
             <div class="deal_header">
               <h1>DEALS OF THE WEEK</h1>
             </div>
+            
+            <!-- The wrapper for "deal of the week -->
             <div class="deal_packages_div">
+
+              <!-- Deal 3 -->
               <a href="packages.html#mixedAnchor">
                 <div class="deal_package" id="package3">
                   <img src="img/packages/package_1.jpg" alt="package1" />
@@ -66,6 +92,8 @@
                   <h6>DUBAI</h6>
                 </div>
               </a>
+
+              <!-- Deal 1 -->
               <a href="packages.html#mixedAnchor">
                 <div class="deal_package" id="package1">
                   <img src="img/packages/package_2.jpg" alt="package2" />
@@ -73,6 +101,8 @@
                   <h6>DUBAI</h6>
                 </div>
               </a>
+
+              <!-- Deal 2 -->
               <a href="packages.html#mixedAnchor">
                 <div class="deal_package" id="package2">
                   <img src="img/packages/package_3.jpg" alt="package3" />
@@ -86,10 +116,12 @@
       </main>
 
       <footer>    
+        <!-- The footer of the page -->
         <div class="developer_div">
           <h4>WEB-DEVELOPER: WEBDESIGN AS</h4>
           <h4>CONTACT@WEBDESIGN.COM</h4>
         </div>
+        <!-- Link to faq.html -->
         <a href="faq.html"><div class="faq_div">
           <h3>FAQ</h3>
           </div></a>
