@@ -22,6 +22,12 @@ body {
   margin: 30px auto;
 }
 
+@media screen and (max-device-width: 800px) {
+    .content {
+        zoom: 1;
+    }
+}
+
 /*----HEADER-----*/
 
 .content header {
