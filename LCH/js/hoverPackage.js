@@ -37,6 +37,7 @@ PURPOSE: Shows additional information about the packages when they are hovered (
 		ruta.addEventListener("mouseenter", hover);
 		ruta.addEventListener("mouseenter", picHide);
 		ruta.addEventListener("mouseleave", picShow);
+    ruta.style.cursor = "pointer";
 	}
 				
   //Display text box on top of package when hovered
