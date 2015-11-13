@@ -1,3 +1,9 @@
+/*
+FILE NAME: js/validation.js
+WRITTEN BY: Jie Li and Simon Kvannli
+WHEN: November 2015
+PURPOSE: Validates the form on order.html
+*/
 
 function validateForm() {
     var x = document.forms["orderForm"]["first-name"].value;

@@ -1,3 +1,10 @@
+/*
+FILE NAME: js/popup.js
+WRITTEN BY: Jie Li
+WHEN: November 2015
+PURPOSE: Opens a popup when a package is activated
+*/
+
 var middle = (screen.width*0.5)-400;
 var subWindow;
 
@@ -15,10 +22,12 @@ window.addEventListener("load", function() {
 
 });
 
+//Initialises id
 function popUp(id){	
 	init(id);	
 }
 
+//Opens the popup
 function init(id){
     subWindow = window.open("packages/subpackage"+id +".html","Subpackage", "titlebar = no, toolbar = no, location = no, status = no, menubar = no, scrollbars = yes, resizable = no, height = 720, width = 800, left="+ middle +"", false);
 }
