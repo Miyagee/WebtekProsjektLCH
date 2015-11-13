@@ -647,11 +647,12 @@ footer h3 {
     font-size: 2.8em;
     font-weight: 100;
     text-align: center;
+    margin: 1% 0;
+    padding: 1% 0;
 }
 
 .main-container #selectedPackage {
     border: 1px solid #887c4d;
-    padding-bottom: 0;
 }
 
 .main-container h2::first-letter {
